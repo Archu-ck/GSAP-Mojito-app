@@ -2,6 +2,20 @@
 
 @import "tailwindcss";
 
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html, 
+body {
+  overflow-y: auto;
+}
+
 @font-face {
     font-family: "Modern Negra";
     src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
